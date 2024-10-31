@@ -224,7 +224,6 @@ void runNing(int &count)
 
 int main(void)
 {
-    /*
     int temp, sum = 0;
     init();
     while (HLSMode != 0 || LLSMode != 0)
@@ -268,14 +267,15 @@ int main(void)
                 pt->next->prior = pt->prior;
             free(pt);
         }
-    */
-    printf("进程名称\t到达时间\t进入内存\t开始执行\t完成时间\t周转时间\t带权周转时间\n");
+    }
+    /*printf("进程名称\t到达时间\t进入内存\t开始执行\t完成时间\t周转时间\t带权周转时间\n");
     printf("JOB1\t\t10:00\t\t10:00\t\t10:00\t\t10:25\t\t25\t\t1.00\n");
     printf("JOB2\t\t10:20\t\t10:20\t\t10:25\t\t11:05\t\t45\t\t1.50\n");
     printf("JOB3\t\t10:30\t\t10:30\t\t10:30\t\t10:40\t\t10\t\t1.00\n");
     printf("JOB4\t\t10:35\t\t11:05\t\t11:05\t\t11:25\t\t50\t\t2.50\n");
     printf("JOB5\t\t10:40\t\t11:25\t\t11:25\t\t11:40\t\t60\t\t4.00\n");
     printf("平均周转时间:2.00\n");
+    */
     system("pause");
     return 0;
 }
