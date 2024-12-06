@@ -3,6 +3,10 @@
 #include<stdio.h>
 #include<sys/stat.h>
 #include<fcntl.h>
+/**
+* @brief 主函数
+* @param 无
+**/
 int main(void){
     int fd1;
     char buf[10];
