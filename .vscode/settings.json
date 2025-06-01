@@ -1,0 +1,50 @@
+{
+    "workbench.editor.empty.hint": "hidden",
+    "C_Cpp.default.compilerPath": "d:\\allow\\tool\\mingw64\\bin\\gcc.exe",
+    "tabnine.experimentalAutoImports": true,
+    "Codegeex.Privacy": true,
+    "Codegeex.License": "",
+    "Codegeex.Local": {
+        "apiURL": "",
+        "useChatGLM": true,
+        "chatGLM": {
+            "apiKey": "",
+            "model": ""
+        },
+        "chat": {
+            "useDefaultSystemPrompt": true,
+            "systemPrompt": "",
+            "temperature": 0.2,
+            "top_p": 0.95,
+            "max_tokens": 1024,
+            "presence_penalty": 1
+        },
+        "completions": {
+            "useDefaultSystemPrompt": true,
+            "systemPrompt": "",
+            "temperature": 0.2,
+            "top_p": 0.95,
+            "max_tokens": 64,
+            "presence_penalty": 1
+        }
+    },
+    "git.enableSmartCommit": true,
+    "codegeex.codeLens.functionQuickOptions": {
+        "ghostComment": true,
+        "fixBug": true,
+        "generateUnitTest": false,
+        "reviewCode": false,
+        "codeOptimization": true,
+        "addDocString": true,
+        "addExceptionHandling": false,
+        "printLogForDebugging": false,
+        "improveRunningEfficiency": true,
+        "renameSymbols": true,
+        "newFileForDebugging": false,
+        "tryANewApproach": false
+    },
+    "git.autofetch": true,
+    "git.blame.editorDecoration.enabled": true,
+    "Codegeex.RepoIndex": true,
+    "git.confirmSync": false
+}

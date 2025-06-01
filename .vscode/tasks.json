@@ -3,7 +3,7 @@
         {
             "type": "shell",
             "label": "C/C++: gcc.exe 生成活动文件",
-            "command": "d:\\study\\tool\\mingw64\\bin\\gcc.exe",
+            "command": "d:\\allow\\study\\tool\\mingw64\\bin\\gcc.exe",
             "args": [
                 "-g", // 编译选项，表示携带调试信息
                 "${workspaceFolder}\\helloworld.cpp",// 源文件
@@ -12,7 +12,7 @@
                 "${workspaceFolder}\\out.exe"// 生成的可执行文件，大家一定要明白这个任务生成的位置是在哪里，要和launch.json对应，不然很容易出错
             ],
             "options": {
-                "cwd": "d:\\study\\tool\\mingw64\\bin"// 指定当前任务执行时的工作目录，然后其他地方需要路径的时候，我们可以填相对路径
+                "cwd": "d:\\allow\\study\\tool\\mingw64\\bin"// 指定当前任务执行时的工作目录，然后其他地方需要路径的时候，我们可以填相对路径
             },
             "problemMatcher": [// 这个输出编译时的错误和警告信息，大家按自己的编程语言选择，我用的是c++，所以这里是gcc
                 "$gcc"
